@@ -23,9 +23,11 @@ ffbuild_dockerlayer_dl() {
 }
 
 ffbuild_configure() {
-    echo --enable-schannel
+    true
+    # echo --enable-schannel
 }
 
 ffbuild_unconfigure() {
-    echo --disable-schannel
+    true
+    # echo --disable-schannel
 }

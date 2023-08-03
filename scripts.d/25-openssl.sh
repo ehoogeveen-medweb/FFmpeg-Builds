@@ -70,6 +70,6 @@ ffbuild_dockerbuild() {
 }
 
 ffbuild_configure() {
-    [[ $TARGET == win* ]] && return 0
+    # [[ $TARGET == win* ]] && return 0
     echo --enable-openssl
 }
